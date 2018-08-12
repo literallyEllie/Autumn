@@ -1,0 +1,11 @@
+[package]
+name = "autumn"
+version = "0.1.0"
+authors = ["Ellie <ellieh6712@Gmail.com>"]
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+serenity = "0.5"
+env_logger = "~0.4"
+kankyo = "~0.1"
+log = "~0.3"
